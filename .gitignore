@@ -1,0 +1,29 @@
+# API Keys & Environment
+.env
+
+# Python Cache
+_pycache_/
+*.py[cod]
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Output
+output/
+
+# Logs
+logs/
+
+# Database
+*.db
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
