@@ -12,8 +12,6 @@ Open Source Intelligence (OSINT) Framework written in Python.
 - 📍 Coordinate Lookup
 - 🔓 Port Scanner (Nmap)
 
----
-
 # 📦 Installation
 
 > *⚠️ Before You Start*
@@ -30,91 +28,133 @@ Open Source Intelligence (OSINT) Framework written in Python.
 
 ---
 
+
 ## 🪟 Windows
 
 ### Clone Repository
-bash
-git clone https://github.com/Marvelusz/MarvelTools.git
-cd MarvelTools
 
+```sh
+git clone https://github.com/Marvelusz/MarvelTools.git
+```
+
+### Enter Project Directory
+
+```sh
+cd MarvelTools
+```
 
 ### (Optional) Create Virtual Environment
-bash
-python -m venv venv
-venv\Scripts\activate
 
+```sh
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+```sh
+venv\Scripts\activate
+```
 
 ### Install Dependencies
-bash
-pip install -r requirements.txt
 
+```sh
+pip install -r requirements.txt
+```
 
 ### Run
-bash
-python main.py
 
+```sh
+python main.py
+```
 
 ---
 
 ## 🐧 Linux / Ubuntu / WSL
 
 ### Update System
-bash
-sudo apt update && sudo apt upgrade -y
 
+```sh
+sudo apt update && sudo apt upgrade -y
+```
 
 ### Install Python & Git
-bash
-sudo apt install python3 python3-pip python3-venv git -y
 
+```sh
+sudo apt install python3 python3-pip python3-venv git -y
+```
 
 ### Clone Repository
-bash
-git clone https://github.com/Marvelusz/MarvelTools.git
-cd MarvelTools
 
+```sh
+git clone https://github.com/Marvelusz/MarvelTools.git
+```
+
+### Enter Project Directory
+
+```sh
+cd MarvelTools
+```
 
 ### Create Virtual Environment
-bash
-python3 -m venv venv
-source venv/bin/activate
 
+```sh
+python3 -m venv venv
+```
+
+### Activate Virtual Environment
+
+```sh
+source venv/bin/activate
+```
 
 ### Install Dependencies
-bash
-pip3 install -r requirements.txt
 
+```sh
+pip3 install -r requirements.txt
+```
 
 ### Run
-bash
-python3 main.py
 
+```sh
+python3 main.py
+```
 
 ---
 
 ## 📱 Termux (Android)
 
 ### Update Packages
-bash
-pkg update && pkg upgrade -y
 
+```sh
+pkg update && pkg upgrade -y
+```
 
 ### Install Dependencies
-bash
-pkg install python git clang -y
 
+```sh
+pkg install python git clang -y
+```
 
 ### Clone Repository
-bash
-git clone https://github.com/Marvelusz/MarvelTools.git
-cd MarvelTools
 
+```sh
+git clone https://github.com/Marvelusz/MarvelTools.git
+```
+
+### Enter Project Directory
+
+```sh
+cd MarvelTools
+```
 
 ### Install Python Packages
-bash
-pip install -r requirements.txt
 
+```sh
+pip install -r requirements.txt
+```
 
 ### Run
-bash
+
+```sh
 python main.py
+```
