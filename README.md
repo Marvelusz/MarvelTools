@@ -19,7 +19,7 @@ Open Source Intelligence (OSINT) Framework written in Python.
 Clone repository:
 
 bash
-git clone https://github.com/Marvelusz/MARVELUS.git
+git clone https://github.com/Marvelusz/MarvelTools.git
 cd MARVELUS
 
 
