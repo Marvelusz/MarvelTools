@@ -14,69 +14,107 @@ Open Source Intelligence (OSINT) Framework written in Python.
 
 ---
 
-## Installation
+# 📦 Installation
 
-Clone repository:
+> *⚠️ Before You Start*
+>
+> This framework uses the *NumVerify API* for Phone Number Lookup.
+>
+> Before running the framework, create a file named *.env* in the project root (same folder as main.py) and add:
+>
+> env
+> NUMVERIFY_API_KEY=YOUR_API_KEY
+> 
+>
+> Replace YOUR_API_KEY with your own NumVerify API key.
 
+---
+
+## 🪟 Windows
+
+### Clone Repository
 bash
 git clone https://github.com/Marvelusz/MarvelTools.git
 cd MarvelTools
 
 
-Install dependencies:
+### (Optional) Create Virtual Environment
+bash
+python -m venv venv
+venv\Scripts\activate
 
+
+### Install Dependencies
 bash
 pip install -r requirements.txt
 
 
-Create a .env file in the project root:
-
-env
-NUMVERIFY_API_KEY=YOUR_API_KEY
-
-
-Run the framework:
-
+### Run
 bash
 python main.py
 
 
 ---
 
-## Requirements
+## 🐧 Linux / Ubuntu / WSL
 
-- Python 3.10+
-- Nmap Installed
-- NumVerify API Key
+### Update System
+bash
+sudo apt update && sudo apt upgrade -y
+
+
+### Install Python & Git
+bash
+sudo apt install python3 python3-pip python3-venv git -y
+
+
+### Clone Repository
+bash
+git clone https://github.com/Marvelusz/MarvelTools.git
+cd MarvelTools
+
+
+### Create Virtual Environment
+bash
+python3 -m venv venv
+source venv/bin/activate
+
+
+### Install Dependencies
+bash
+pip3 install -r requirements.txt
+
+
+### Run
+bash
+python3 main.py
+
 
 ---
 
-## Project Structure
+## 📱 Termux (Android)
+
+### Update Packages
+bash
+pkg update && pkg upgrade -y
 
 
-MARVELUS/
-├── main.py
-├── requirements.txt
-├── .env
-├── utils/
-├── tools/
-└── README.md
+### Install Dependencies
+bash
+pkg install python git clang -y
 
 
----
+### Clone Repository
+bash
+git clone https://github.com/Marvelusz/MarvelTools.git
+cd MarvelTools
 
-## Screenshot
 
-(Add screenshot here)
+### Install Python Packages
+bash
+pip install -r requirements.txt
 
----
 
-## License
-
-MIT License
-
----
-
-## Author
-
-Developed by *RzkAelah*
+### Run
+bash
+python main.py
