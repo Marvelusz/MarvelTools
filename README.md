@@ -20,7 +20,7 @@ Clone repository:
 
 bash
 git clone https://github.com/Marvelusz/MarvelTools.git
-cd MARVELUS
+cd MarvelTools
 
 
 Install dependencies:
